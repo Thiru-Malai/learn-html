@@ -42,7 +42,7 @@
     </center>
     <!-- Line break - Empty Tag (No closing bracket required) -->
     <br>
-    
+
     <h3>Basic</h3>
 
     <!-- Paragraph -->
@@ -165,6 +165,87 @@
     <p>A favicon is a small icon ( image ) that is displayed next to the title of the webpage.</p>
     <pre>
         &lt;link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"&gt;
+    </pre>
+
+    <hr>
+
+    <h3>Tables</h3>
+    <!-- Table Tag -->
+    <table border="1px">
+        <!-- Defines the table caption <caption> -->
+        <caption style="text-align: center;">STUDENT TABLE</caption>
+        <!-- Create a row in the table <tr> -->
+        <tr>
+            <!-- Headings of the column <th> -->
+            <th>SNO</th>
+            <th>NAME</th>
+            <th>PHONENUM</th>
+            <th>ADDRESS</th>
+            <th>TOTAL MARKS</th>
+        </tr>
+        <!-- Contents of the table <tbody> -->
+        <tbody>
+            <tr>
+                <!-- Content of the cell <td> -->
+                <td>1</td>
+                <td>BILL GATES</td>
+                <td>9123456789</td>
+                <td>ABC, XYZ</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ELON MUSK</td>
+                <td>9123456789</td>
+                <td>DEF, GHI</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <!-- Summarized content <tfoot> -->
+        <tfoot>
+            <tr>
+                <!-- Colspan and rowspan are used to combine multiple cols or rows together. It is an attribute of tr or td tags -->
+                <td colspan="4">TOTAL MARKS SCORED</td>
+                <td>200</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <pre>
+        <code>
+            &lt;table border="1px"&gt;
+            &lt;caption style="text-align: center;"&gt;STUDENT TABLE&lt;/caption&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;SNO&lt;/th&gt;
+                    &lt;th&gt;NAME&lt;/th&gt;
+                    &lt;th&gt;PHONENUM&lt;/th&gt;
+                    &lt;th&gt;ADDRESS&lt;/th&gt;
+                    &lt;th&gt;TOTAL MARKS&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;1&lt;/td&gt;
+                        &lt;td&gt;BILL GATES&lt;/td&gt;
+                        &lt;td&gt;9123456789&lt;/td&gt;
+                        &lt;td&gt;ABC, XYZ&lt;/td&gt;
+                        &lt;td&gt;100&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;2&lt;/td&gt;
+                        &lt;td&gt;ELON MUSK&lt;/td&gt;
+                        &lt;td&gt;9123456789&lt;/td&gt;
+                        &lt;td&gt;DEF, GHI&lt;/td&gt;
+                        &lt;td&gt;100&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+                &lt;tfoot&gt;
+                    &lt;tr&gt;
+                        &lt;td colspan="4"&gt;TOTAL MARKS SCORED&lt;/td&gt;
+                        &lt;td&gt;200&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tfoot&gt;
+            &lt;/table&gt;
+        </code>
     </pre>
 
     <hr>
